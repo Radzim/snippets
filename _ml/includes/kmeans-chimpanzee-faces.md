@@ -3,10 +3,10 @@
 
 \editme
 
-\subsection{$k$ Means Clustering}
+\subsection{Images and Dimensionality Reduction}
 
 \notes{
-Let's use the images directly to try to cluster the pictures. After extracting the pixel values, we will apply dimensionality reduction so that we can visualise the process.}
+We will try to use the images directly to cluster the pictures. After extracting the pixel values, we will apply dimensionality reduction so that we can visualise the process.}
 
 \setupcode{import os
 import numpy as np
@@ -46,7 +46,7 @@ ax.set_xlim(mins[0]-pad[0], maxs[0]+pad[0])
 ax.set_ylim(mins[1]-pad[1], maxs[1]+pad[1])
 ax.set_xticks([]); ax.set_yticks([])}
 
-\subsection{K-Means}
+\subsection{$k$ Means Clustering}
 
 \notes{
 We will now apply K-means clustering on the mappings to group similar faces together.}
